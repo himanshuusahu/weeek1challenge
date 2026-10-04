@@ -1,0 +1,16 @@
+{
+  "name": "heritage-scribe-backend",
+  "version": "1.0.0",
+  "description": "Node.js Express backend for HeritageScribe AI integrating Gemma 2, ElevenLabs, MongoDB Atlas, SerpApi, Mastra, and Sentry",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
